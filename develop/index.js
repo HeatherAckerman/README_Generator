@@ -23,6 +23,21 @@ const getInfo = [
         message: "What are the usage instructions for your project?",
         name: "useInstructions",
         type: "input"
+    },    
+    {
+        message: "What technologies does your project use?",
+        name: "technologies",
+        type: "input"
+    },
+    {
+        message: "List any plans for future upgrades.",
+        name: "futureUpgrades",
+        type: "input"
+    },
+    {
+        message: "List any acknowledgements.",
+        name: "acknowledgements",
+        type: "input",
     },
     {
         message: "What does the user need to know about contributing to the repo?",
