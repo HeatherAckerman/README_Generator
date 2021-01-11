@@ -5,7 +5,6 @@ function generateMarkdown(response, githubInfo) {
 
   ## Table of contents
   - [Description](#Description)
-  - [Installation](#Installation)
   - [Usage](#Usage)
   - [Technologies](#Technologies)
   - [Future_Upgrades](#Future_Upgrades)
@@ -17,9 +16,6 @@ function generateMarkdown(response, githubInfo) {
 
   ## Description 
   ${response.description}
-
-  ## Installation
-  ${response.installInstructions}
 
   ## Usage
   ${response.useInstructions}

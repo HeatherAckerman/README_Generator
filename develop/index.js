@@ -15,11 +15,6 @@ const getInfo = [
         type: "input"
     },
     {
-        message: "What are the installation instructions for your project?",
-        name: "installInstructions",
-        type: "input"
-    },
-    {
         message: "What are the usage instructions for your project?",
         name: "useInstructions",
         type: "input"
